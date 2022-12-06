@@ -1,6 +1,4 @@
-<a name="readme-top"></a>
-
-
+<a name="readme-top">Awesome Book project</a>
 
 <div align="center">
 
@@ -33,12 +31,11 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-
 # 📖 [your_project_name] <a name="about-project"></a>
 
-> This is project which allows users to add and delete book credentials using local storage 
+> This is project which allows users to add and delete book credentials using local storage
 
-**[Awsome Books]** is a Single page app 
+**[Awsome Books]** is a Single page app
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -53,7 +50,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-
 - **[INSERTION]**
 - **[DELETING]**
 - **[LOCAL_STORAGE]**
@@ -62,7 +58,6 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-
 - [Live Demo Link](https://yourdeployedapplicationlink.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -70,21 +65,21 @@
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running follow these simple example steps.
+
 ## Step 1:
+
 - if you don't have git installed on your machine you can download it from [here ](https://git-scm.com/downloads).
 - Once you have git installed on your machine you can clone your project by running the command below to clone this project to your local machine in the directory of the folder you want it to be cloned
 - git clone https://github.com/quavo19/Awsome-books.git
 - Alternatively, you can download the zip file of your project by clicking on the `Code` button on the right side of your project page and clicking on `Download ZIP`
 
-## Step 2: 
-- Locate the folder where you cloned your project to and open the `index.html` file in your browser to view your project.
+## Step 2:
 
+- Locate the folder where you cloned your project to and open the `index.html` file in your browser to view your project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
-
-
 
 👤 **Donald Akite**
 
@@ -100,9 +95,7 @@ To get a local copy up and running follow these simple example steps.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -112,15 +105,13 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## ⭐️ Show your support <a name="support"></a>
 
-If you liked this project dont forget to leave a start 
+If you liked this project dont forget to leave a start
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## ❓ FAQ <a name="faq"></a>
 
@@ -129,7 +120,6 @@ If you liked this project dont forget to leave a start
 - **does it use a database ?**
 
   - NO, it only has local storage
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
