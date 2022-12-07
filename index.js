@@ -1,4 +1,3 @@
-/* eslint-disable no-loop-func */
 import homePage from './module/homepage.js';
 import contactArea from './module/contact-area.js';
 import addBookkkkk from './module/add-book.js';
@@ -17,10 +16,13 @@ const pushBook = () => {
   const authorValue = document.getElementById('Author').value;
   const id = book.length;
   const theBook = new CreateBook(titleValue, authorValue, id);
-  // eslint-disable-next-line eqeqeq
-  if (titleValue != '' || authorValue != '') {
+
+  if (titleValue !== '' || authorValue !== '') {
     book.push(theBook);
   }
+};
+const store = () => {
+  localStorage.setItem('book', JSON.stringify(book));
 };
 
 const bookList = document.querySelector('.books-list');
@@ -48,6 +50,7 @@ const createBook = () => {
     }
     individualBook.append(removeBtn);
     removeBtn.id = book[i].id;
+    // eslint-disable-next-line no-loop-func
     const removeBook = () => {
       const target = removeBtn.id;
       book.splice(target, 1);
@@ -61,19 +64,17 @@ const createBook = () => {
       }
     };
 
+    // eslint-disable-next-line no-loop-func
     removeBtn.addEventListener('click', () => {
       book = JSON.parse(localStorage.getItem('book')) || [];
       removeBook();
-      // eslint-disable-next-line no-use-before-define
+
       store();
       window.location.reload();
     });
   }
 };
 
-const store = () => {
-  localStorage.setItem('book', JSON.stringify(book));
-};
 const addBtn = document.querySelector('#Add-Button');
 addBtn.addEventListener('click', () => {
   pushBook();

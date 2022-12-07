@@ -6,5 +6,4 @@ const getDate = () => {
   time.innerHTML = dt.toLocaleString(DateTime.DATETIME_MED);
 };
 
-// eslint-disable-next-line import/prefer-default-export
 export { getDate as default };
