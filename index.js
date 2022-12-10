@@ -1,3 +1,4 @@
+/* eslint-disable no-loop-func */
 import homePage from './module/homepage.js';
 import contactArea from './module/contact-area.js';
 import addBookkkkk from './module/add-book.js';
@@ -50,7 +51,7 @@ const createBook = () => {
     }
     individualBook.append(removeBtn);
     removeBtn.id = book[i].id;
-    // eslint-disable-next-line no-loop-func
+
     const removeBook = () => {
       const target = removeBtn.id;
       book.splice(target, 1);
@@ -64,7 +65,6 @@ const createBook = () => {
       }
     };
 
-    // eslint-disable-next-line no-loop-func
     removeBtn.addEventListener('click', () => {
       book = JSON.parse(localStorage.getItem('book')) || [];
       removeBook();
