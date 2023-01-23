@@ -31,7 +31,7 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Awesome Books] <a name="about-project"></a>
 
 > This is project which allows users to add and delete book credentials using local storage
 
