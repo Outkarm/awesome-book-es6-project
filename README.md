@@ -31,7 +31,7 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Awesome Books <a name="about-project"></a>
 
 > This is project which allows users to add and delete book credentials using local storage
 
@@ -58,7 +58,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://outkarm.github.io/awesome-book-es6-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
